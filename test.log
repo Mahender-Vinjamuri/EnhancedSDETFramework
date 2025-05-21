@@ -1,0 +1,44 @@
+2025-05-21 15:07:18 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\EnhancedSDETFramework\testng_StockComparison.xml] otherwise TestNG may fail or not work as expected.
+2025-05-21 15:07:18 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\EnhancedSDETFramework\testng_StockComparison.xml
+
+2025-05-21 15:07:18 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting setup with browser: chrome
+2025-05-21 15:07:18 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Configuration properties loaded.
+2025-05-21 15:07:19 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Excel data loaded successfully. Total stocks to run: 9
+2025-05-21 15:07:19 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Extent report initialized for browser: chrome
+2025-05-21 15:07:19 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Launching browser: chrome
+2025-05-21 15:07:20 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.94 (resolved driver for Chrome 136)
+2025-05-21 15:07:20 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vinja\.cache\selenium\chromedriver\win64\136.0.7103.94\chromedriver.exe
+2025-05-21 15:07:21 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Browser launched and maximized.
+2025-05-21 15:07:21 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: COALINDIA
+2025-05-21 15:07:37 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for COALINDIA: profitLossPercentage=0.0
+2025-05-21 15:07:37 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: TATASTEEL
+2025-05-21 15:07:52 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for TATASTEEL: profitLossPercentage=0.0
+2025-05-21 15:07:52 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: HINDALCO
+2025-05-21 15:08:07 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for HINDALCO: profitLossPercentage=0.0
+2025-05-21 15:08:07 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: ONGC
+2025-05-21 15:08:22 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for ONGC: profitLossPercentage=0.0
+2025-05-21 15:08:22 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: DRREDDY
+2025-05-21 15:08:37 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for DRREDDY: profitLossPercentage=0.0
+2025-05-21 15:08:37 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: INFY
+2025-05-21 15:08:53 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for INFY: profitLossPercentage=0.0
+2025-05-21 15:08:53 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: BEL
+2025-05-21 15:09:08 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for BEL: profitLossPercentage=3.2808616404308126
+2025-05-21 15:09:08 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: ITC
+2025-05-21 15:09:24 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for ITC: profitLossPercentage=0.0
+2025-05-21 15:09:24 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Starting test for stock: INDUSINDBK
+2025-05-21 15:09:39 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Test passed for INDUSINDBK: profitLossPercentage=0.0
+2025-05-21 15:09:39 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Profit/Loss percentages written to Excel
+2025-05-21 15:09:40 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Extent Report flushed
+2025-05-21 15:09:41 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - WebDriver quit
+2025-05-21 15:09:41 [TestNG-tests-1] INFO  com.framework.tests.NSEStockComparisonTest - Teardown complete.
+2025-05-21 15:13:21 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [D:\EnhancedSDETFramework\testng_52WeekHighLow.xml] otherwise TestNG may fail or not work as expected.
+2025-05-21 15:13:22 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\EnhancedSDETFramework\testng_52WeekHighLow.xml
+
+2025-05-21 15:13:23 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.94 (resolved driver for Chrome 136)
+2025-05-21 15:13:23 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vinja\.cache\selenium\chromedriver\win64\136.0.7103.94\chromedriver.exe
+2025-05-21 15:13:24 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 136.0.3240.76 (resolved driver for Edge 136)
+2025-05-21 15:13:24 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.36.0 (resolved driver for Firefox 138)
+2025-05-21 15:13:24 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\vinja\.cache\selenium\msedgedriver\win64\136.0.3240.76\msedgedriver.exe
+2025-05-21 15:13:24 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\vinja\.cache\selenium\geckodriver\win64\0.36.0\geckodriver.exe

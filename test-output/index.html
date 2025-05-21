@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ParallelStockSuite" class="navigator-link">
+              <span class="suite-name border-passed">ParallelStockSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ParallelStockSuite" class="navigator-link ">
+                    <span>D:\EnhancedSDETFramework\testng_52WeekHighLow.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ParallelStockSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ParallelStockSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ParallelStockSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ParallelStockSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ParallelStockSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ParallelStockSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ParallelStockSuite" class="hide-methods passed suite-ParallelStockSuite"> (hide)</a> <!-- hide-methods passed suite-ParallelStockSuite -->
+                      <a href="#" panel-name="suite-ParallelStockSuite" class="show-methods passed suite-ParallelStockSuite"> (show)</a> <!-- show-methods passed suite-ParallelStockSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ParallelStockSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(TATAMOTORS)">testStockInformation(TATAMOTORS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(RELIANCE)">testStockInformation(RELIANCE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(INFY)">testStockInformation(INFY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(TATAMOTORS)">testStockInformation(TATAMOTORS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(INFY)">testStockInformation(INFY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(RELIANCE)">testStockInformation(RELIANCE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(TATAMOTORS)">testStockInformation(TATAMOTORS)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(INFY)">testStockInformation(INFY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelStockSuite" title="com.framework.tests.NSEStockTest" class="method navigator-link" hash-for-method="testStockInformation(RELIANCE)">testStockInformation(RELIANCE)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ParallelStockSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ParallelStockSuite" class="panel ParallelStockSuite">
+          <div class="suite-ParallelStockSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.framework.tests.NSEStockTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(TATAMOTORS)">
+                  </a> <!-- testStockInformation(TATAMOTORS) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(TATAMOTORS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(RELIANCE)">
+                  </a> <!-- testStockInformation(RELIANCE) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(RELIANCE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(INFY)">
+                  </a> <!-- testStockInformation(INFY) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(INFY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(TATAMOTORS)">
+                  </a> <!-- testStockInformation(TATAMOTORS) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(TATAMOTORS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(INFY)">
+                  </a> <!-- testStockInformation(INFY) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(INFY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(RELIANCE)">
+                  </a> <!-- testStockInformation(RELIANCE) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(RELIANCE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(TATAMOTORS)">
+                  </a> <!-- testStockInformation(TATAMOTORS) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(TATAMOTORS)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(INFY)">
+                  </a> <!-- testStockInformation(INFY) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(INFY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testStockInformation(RELIANCE)">
+                  </a> <!-- testStockInformation(RELIANCE) -->
+                  <span class="method-name">testStockInformation</span>
+                  <span class="parameters">(RELIANCE)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelStockSuite-class-passed -->
+        </div> <!-- panel ParallelStockSuite -->
+        <div panel-name="test-xml-ParallelStockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\EnhancedSDETFramework\testng_52WeekHighLow.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ParallelStockSuite&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.framework.tests.NSEStockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;FirefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.framework.tests.NSEStockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.framework.tests.NSEStockTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- ParallelStockSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ParallelStockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ParallelStockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FirefoxTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ParallelStockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ParallelStockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ParallelStockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ParallelStockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ParallelStockSuite');
+function tableData_ParallelStockSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testStockInformation')
+data.setCell(0, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(0, 3, 18733);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testStockInformation')
+data.setCell(1, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(1, 3, 18727);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testStockInformation')
+data.setCell(2, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(2, 3, 18397);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testStockInformation')
+data.setCell(3, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(3, 3, 18220);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testStockInformation')
+data.setCell(4, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(4, 3, 17370);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testStockInformation')
+data.setCell(5, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(5, 3, 17260);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testStockInformation')
+data.setCell(6, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(6, 3, 16579);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testStockInformation')
+data.setCell(7, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(7, 3, 16379);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testStockInformation')
+data.setCell(8, 2, 'com.framework.tests.NSEStockTest')
+data.setCell(8, 3, 15127);
+window.suiteTableData['ParallelStockSuite']= { tableData: data, tableDiv: 'times-div-ParallelStockSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-ParallelStockSuite">
+              </div> <!-- times-div-ParallelStockSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ParallelStockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ParallelStockSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ParallelStockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ParallelStockSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.framework.tests.NSEStockTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(TATAMOTORS)</span>
+                <span class="method-start">2694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(TATAMOTORS)</span>
+                <span class="method-start">5511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(TATAMOTORS)</span>
+                <span class="method-start">10569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(INFY)</span>
+                <span class="method-start">21425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(INFY)</span>
+                <span class="method-start">23911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(INFY)</span>
+                <span class="method-start">28792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(RELIANCE)</span>
+                <span class="method-start">40161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(RELIANCE)</span>
+                <span class="method-start">41284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testStockInformation(RELIANCE)</span>
+                <span class="method-start">45174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56745 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58546 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60303 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

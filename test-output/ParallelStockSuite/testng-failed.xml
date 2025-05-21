@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [ParallelStockSuite]">
+  <test thread-count="3" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.framework.tests.NSEStockComparisonTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="compare52WeekHighLowWithExcel" invocation-numbers="46"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.framework.tests.NSEStockComparisonTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [ParallelStockSuite] -->
